@@ -1,0 +1,1392 @@
+[
+    {
+        "Field No": 1,
+        "Description": "MANDT",
+        "Data Element": "Client",
+        "Checktable": "MANDT",
+        "Domain": "T000",
+        "Datatype": "MANDT",
+        "Length": "CLNT",
+        "Decimals": 3
+    },
+    {
+        "Field No": 2,
+        "Description": "LIFNR",
+        "Data Element": "Account Number of Vendor or Creditor",
+        "Checktable": "LIFNR",
+        "Domain": "LFA1",
+        "Datatype": "LIFNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 3,
+        "Description": "LAND1",
+        "Data Element": "Country Key",
+        "Checktable": "LAND1_GP",
+        "Domain": "T005",
+        "Datatype": "LAND1",
+        "Length": "CHAR",
+        "Decimals": 3
+    },
+    {
+        "Field No": 4,
+        "Description": "NAME1",
+        "Data Element": "Name 1",
+        "Checktable": "NAME1_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 5,
+        "Description": "NAME2",
+        "Data Element": "Name 2",
+        "Checktable": "NAME2_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 6,
+        "Description": "NAME3",
+        "Data Element": "Name 3",
+        "Checktable": "NAME3_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 7,
+        "Description": "NAME4",
+        "Data Element": "Name 4",
+        "Checktable": "NAME4_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 8,
+        "Description": "ORT01",
+        "Data Element": "City",
+        "Checktable": "ORT01_GP",
+        "Domain": NaN,
+        "Datatype": "TEXT35",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 9,
+        "Description": "ORT02",
+        "Data Element": "District",
+        "Checktable": "ORT02_GP",
+        "Domain": NaN,
+        "Datatype": "TEXT35",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 10,
+        "Description": "PFACH",
+        "Data Element": "PO Box",
+        "Checktable": "PFACH",
+        "Domain": NaN,
+        "Datatype": "PFACH",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 11,
+        "Description": "PSTL2",
+        "Data Element": "P.O. Box Postal Code",
+        "Checktable": "PSTL2",
+        "Domain": NaN,
+        "Datatype": "PSTLZ",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 12,
+        "Description": "PSTLZ",
+        "Data Element": "Postal Code",
+        "Checktable": "PSTLZ",
+        "Domain": NaN,
+        "Datatype": "PSTLZ",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 13,
+        "Description": "REGIO",
+        "Data Element": "Region (State, Province, County)",
+        "Checktable": "REGIO",
+        "Domain": "T005S",
+        "Datatype": "REGIO",
+        "Length": "CHAR",
+        "Decimals": 3
+    },
+    {
+        "Field No": 14,
+        "Description": "SORTL",
+        "Data Element": "Sort field",
+        "Checktable": "SORTL",
+        "Domain": NaN,
+        "Datatype": "CHAR10",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 15,
+        "Description": "STRAS",
+        "Data Element": "Street and House Number",
+        "Checktable": "STRAS_GP",
+        "Domain": NaN,
+        "Datatype": "TEXT35",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 16,
+        "Description": "ADRNR",
+        "Data Element": "Address",
+        "Checktable": "ADRNR",
+        "Domain": "ADRC",
+        "Datatype": "ADRNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 17,
+        "Description": "MCOD1",
+        "Data Element": "Search term for matchcode search",
+        "Checktable": "MCDK1",
+        "Domain": NaN,
+        "Datatype": "CHAR25",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 18,
+        "Description": "MCOD2",
+        "Data Element": "Search term for matchcode search",
+        "Checktable": "MCDK2",
+        "Domain": NaN,
+        "Datatype": "CHAR25",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 19,
+        "Description": "MCOD3",
+        "Data Element": "Search term for matchcode search",
+        "Checktable": "MCDK3",
+        "Domain": NaN,
+        "Datatype": "CHAR25",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 20,
+        "Description": "ANRED",
+        "Data Element": "Title",
+        "Checktable": "ANRED",
+        "Domain": NaN,
+        "Datatype": "TEXT15",
+        "Length": "CHAR",
+        "Decimals": 15
+    },
+    {
+        "Field No": 21,
+        "Description": "BAHNS",
+        "Data Element": "Train station",
+        "Checktable": "BAHNS",
+        "Domain": NaN,
+        "Datatype": "BAHNH",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 22,
+        "Description": "BBBNR",
+        "Data Element": "International location number (part 1)",
+        "Checktable": "BBBNR",
+        "Domain": NaN,
+        "Datatype": "NUM07",
+        "Length": "NUMC",
+        "Decimals": 7
+    },
+    {
+        "Field No": 23,
+        "Description": "BBSNR",
+        "Data Element": "International location number (Part 2)",
+        "Checktable": "BBSNR",
+        "Domain": NaN,
+        "Datatype": "NUM05",
+        "Length": "NUMC",
+        "Decimals": 5
+    },
+    {
+        "Field No": 24,
+        "Description": "BEGRU",
+        "Data Element": "Authorization Group",
+        "Checktable": "BRGRU",
+        "Domain": "TBRG",
+        "Datatype": "BRGRU",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 25,
+        "Description": "BRSCH",
+        "Data Element": "Industry key",
+        "Checktable": "BRSCH",
+        "Domain": "T016",
+        "Datatype": "BRSCH",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 26,
+        "Description": "BUBKZ",
+        "Data Element": "Check digit for the international location number",
+        "Checktable": "BUBKZ",
+        "Domain": NaN,
+        "Datatype": "NUM01",
+        "Length": "NUMC",
+        "Decimals": 1
+    },
+    {
+        "Field No": 27,
+        "Description": "DATLT",
+        "Data Element": "Data communication line no.",
+        "Checktable": "DATLT",
+        "Domain": NaN,
+        "Datatype": "TEXT14",
+        "Length": "CHAR",
+        "Decimals": 14
+    },
+    {
+        "Field No": 28,
+        "Description": "DTAMS",
+        "Data Element": "Report key for data medium exchange",
+        "Checktable": "DTAMS",
+        "Domain": NaN,
+        "Datatype": "DTAMS",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 29,
+        "Description": "DTAWS",
+        "Data Element": "Instruction key for data medium exchange",
+        "Checktable": "DTAWS",
+        "Domain": "T015W",
+        "Datatype": "DTAWS",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 30,
+        "Description": "ERDAT",
+        "Data Element": "Date on which the Record Was Created",
+        "Checktable": "ERDAT_RF",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 31,
+        "Description": "ERNAM",
+        "Data Element": "Name of Person who Created the Object",
+        "Checktable": "ERNAM_RF",
+        "Domain": NaN,
+        "Datatype": "USNAM",
+        "Length": "CHAR",
+        "Decimals": 12
+    },
+    {
+        "Field No": 32,
+        "Description": "ESRNR",
+        "Data Element": "POR subscriber number",
+        "Checktable": "ESRNR",
+        "Domain": NaN,
+        "Datatype": "ESRNR",
+        "Length": "CHAR",
+        "Decimals": 11
+    },
+    {
+        "Field No": 33,
+        "Description": "KONZS",
+        "Data Element": "Group key",
+        "Checktable": "KONZS",
+        "Domain": NaN,
+        "Datatype": "KONZS",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 34,
+        "Description": "KTOKK",
+        "Data Element": "Vendor account group",
+        "Checktable": "KTOKK",
+        "Domain": "T077K",
+        "Datatype": "KTOKK",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 35,
+        "Description": "KUNNR",
+        "Data Element": "Customer Number",
+        "Checktable": "KUNNR",
+        "Domain": "KNA1",
+        "Datatype": "KUNNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 36,
+        "Description": "LNRZA",
+        "Data Element": "Account Number of the Alternative Payee",
+        "Checktable": "LNRZA",
+        "Domain": "LFA1",
+        "Datatype": "LIFNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 37,
+        "Description": "LOEVM",
+        "Data Element": "Central Deletion Flag for Master Record",
+        "Checktable": "LOEVM_X",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 38,
+        "Description": "SPERR",
+        "Data Element": "Central posting block",
+        "Checktable": "SPERB_X",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 39,
+        "Description": "SPERM",
+        "Data Element": "Centrally imposed purchasing block",
+        "Checktable": "SPERM_X",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 40,
+        "Description": "SPRAS",
+        "Data Element": "Language Key",
+        "Checktable": "SPRAS",
+        "Domain": "T002",
+        "Datatype": "SPRAS",
+        "Length": "LANG",
+        "Decimals": 1
+    },
+    {
+        "Field No": 41,
+        "Description": "STCD1",
+        "Data Element": "Tax Number 1",
+        "Checktable": "STCD1",
+        "Domain": NaN,
+        "Datatype": "STCD1",
+        "Length": "CHAR",
+        "Decimals": 16
+    },
+    {
+        "Field No": 42,
+        "Description": "STCD2",
+        "Data Element": "Tax Number 2",
+        "Checktable": "STCD2",
+        "Domain": NaN,
+        "Datatype": "STCD2",
+        "Length": "CHAR",
+        "Decimals": 11
+    },
+    {
+        "Field No": 43,
+        "Description": "STKZA",
+        "Data Element": "Indicator: Business Partner Subject to Equalization Tax?",
+        "Checktable": "STKZA",
+        "Domain": NaN,
+        "Datatype": "STKZA",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 44,
+        "Description": "STKZU",
+        "Data Element": "Liable for VAT",
+        "Checktable": "STKZU",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 45,
+        "Description": "TELBX",
+        "Data Element": "Telebox number",
+        "Checktable": "TELBX",
+        "Domain": NaN,
+        "Datatype": "TEXT15",
+        "Length": "CHAR",
+        "Decimals": 15
+    },
+    {
+        "Field No": 46,
+        "Description": "TELF1",
+        "Data Element": "First telephone number",
+        "Checktable": "TELF1",
+        "Domain": NaN,
+        "Datatype": "TEXT16",
+        "Length": "CHAR",
+        "Decimals": 16
+    },
+    {
+        "Field No": 47,
+        "Description": "TELF2",
+        "Data Element": "Second telephone number",
+        "Checktable": "TELF2",
+        "Domain": NaN,
+        "Datatype": "TEXT16",
+        "Length": "CHAR",
+        "Decimals": 16
+    },
+    {
+        "Field No": 48,
+        "Description": "TELFX",
+        "Data Element": "Fax Number",
+        "Checktable": "TELFX",
+        "Domain": NaN,
+        "Datatype": "TEXT31",
+        "Length": "CHAR",
+        "Decimals": 31
+    },
+    {
+        "Field No": 49,
+        "Description": "TELTX",
+        "Data Element": "Teletex number",
+        "Checktable": "TELTX",
+        "Domain": NaN,
+        "Datatype": "TEXT30",
+        "Length": "CHAR",
+        "Decimals": 30
+    },
+    {
+        "Field No": 50,
+        "Description": "TELX1",
+        "Data Element": "Telex number",
+        "Checktable": "TELX1",
+        "Domain": NaN,
+        "Datatype": "TEXT30",
+        "Length": "CHAR",
+        "Decimals": 30
+    },
+    {
+        "Field No": 51,
+        "Description": "XCPDK",
+        "Data Element": "Indicator: Is the account a one-time account?",
+        "Checktable": "XCPDK",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 52,
+        "Description": "XZEMP",
+        "Data Element": "Indicator: Alternative payee in document allowed ?",
+        "Checktable": "XZEMP",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 53,
+        "Description": "VBUND",
+        "Data Element": "Company ID of trading partner",
+        "Checktable": "RASSC",
+        "Domain": "T880",
+        "Datatype": "RCOMP",
+        "Length": "CHAR",
+        "Decimals": 6
+    },
+    {
+        "Field No": 54,
+        "Description": "FISKN",
+        "Data Element": "Account number of the master record with fiscal address",
+        "Checktable": "FISKN_K",
+        "Domain": "LFA1",
+        "Datatype": "LIFNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 55,
+        "Description": "STCEG",
+        "Data Element": "VAT Registration Number",
+        "Checktable": "STCEG",
+        "Domain": NaN,
+        "Datatype": "STCEG",
+        "Length": "CHAR",
+        "Decimals": 20
+    },
+    {
+        "Field No": 56,
+        "Description": "STKZN",
+        "Data Element": "Natural Person",
+        "Checktable": "STKZN",
+        "Domain": NaN,
+        "Datatype": "STKZN",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 57,
+        "Description": "SPERQ",
+        "Data Element": "Function That Will Be Blocked",
+        "Checktable": "QSPERRFKT",
+        "Domain": "TQ04A",
+        "Datatype": "QSPERRFKT",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 58,
+        "Description": "GBORT",
+        "Data Element": "Place of birth of the person subject to withholding tax",
+        "Checktable": "GBORT_Q",
+        "Domain": NaN,
+        "Datatype": "TEXT25",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 59,
+        "Description": "GBDAT",
+        "Data Element": "Date of birth of the person subject to withholding tax",
+        "Checktable": "GBDAT_Q",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 60,
+        "Description": "SEXKZ",
+        "Data Element": "Key for the Sex of the Person Subject to Withholding Tax",
+        "Checktable": "SEXKZ",
+        "Domain": NaN,
+        "Datatype": "SEXKZ",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 61,
+        "Description": "KRAUS",
+        "Data Element": "Credit information number",
+        "Checktable": "KRAUS_CM",
+        "Domain": NaN,
+        "Datatype": "CHAR11",
+        "Length": "CHAR",
+        "Decimals": 11
+    },
+    {
+        "Field No": 62,
+        "Description": "REVDB",
+        "Data Element": "Last review (external)",
+        "Checktable": "REVDB_CM",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 63,
+        "Description": "QSSYS",
+        "Data Element": "Vendor's QM system",
+        "Checktable": "QSSYS_IST",
+        "Domain": "TQ02B",
+        "Datatype": "QSSYSFAM",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 64,
+        "Description": "KTOCK",
+        "Data Element": "Reference Account Group for One-Time Account (Vendor)",
+        "Checktable": "KTOCK",
+        "Domain": "T077K",
+        "Datatype": "KTOKK",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 65,
+        "Description": "PFORT",
+        "Data Element": "PO Box city",
+        "Checktable": "PFORT_GP",
+        "Domain": NaN,
+        "Datatype": "TEXT35",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 66,
+        "Description": "WERKS",
+        "Data Element": "Plant (Own or External)",
+        "Checktable": "WERKS_EXT",
+        "Domain": "T001W",
+        "Datatype": "WERKS",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 67,
+        "Description": "LTSNA",
+        "Data Element": "Indicator: vendor sub-range relevant",
+        "Checktable": "LTSNA",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 68,
+        "Description": "WERKR",
+        "Data Element": "Indicator: plant level relevant",
+        "Checktable": "WERKR",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 69,
+        "Description": "PLKAL",
+        "Data Element": "Factory calendar key",
+        "Checktable": "FABKL",
+        "Domain": "TFACD",
+        "Datatype": "WFCID",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 70,
+        "Description": "DUEFL",
+        "Data Element": "Status of Data Transfer into Subsequent Release",
+        "Checktable": "DUEFL_BKPF",
+        "Domain": NaN,
+        "Datatype": "DUEFL_BKPF",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 71,
+        "Description": "TXJCD",
+        "Data Element": "Tax Jurisdiction",
+        "Checktable": "TXJCD",
+        "Domain": "TTXJ",
+        "Datatype": "TXJCD",
+        "Length": "CHAR",
+        "Decimals": 15
+    },
+    {
+        "Field No": 72,
+        "Description": "SPERZ",
+        "Data Element": "Payment Block",
+        "Checktable": "SPERZ",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 73,
+        "Description": "SCACD",
+        "Data Element": "Standard carrier access code",
+        "Checktable": "SCACD",
+        "Domain": NaN,
+        "Datatype": "SCACD",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 74,
+        "Description": "SFRGR",
+        "Data Element": "Forwarding agent freight group",
+        "Checktable": "SFRGR",
+        "Domain": "TSFG",
+        "Datatype": "SFRGR",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 75,
+        "Description": "LZONE",
+        "Data Element": "Transportation zone to or from which the goods are delivered",
+        "Checktable": "LZONE",
+        "Domain": "TZONE",
+        "Datatype": "ZONE",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 76,
+        "Description": "XLFZA",
+        "Data Element": "Indicator: Alternative payee using account number",
+        "Checktable": "XLFZA",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 77,
+        "Description": "DLGRP",
+        "Data Element": "Service agent procedure group",
+        "Checktable": "DLGRP",
+        "Domain": "TVFCD",
+        "Datatype": "DLGRP",
+        "Length": "CHAR",
+        "Decimals": 4
+    },
+    {
+        "Field No": 78,
+        "Description": "FITYP",
+        "Data Element": "Tax type",
+        "Checktable": "J_1AFITP_D",
+        "Domain": "J_1AFITPV",
+        "Datatype": "J_1AFITP",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 79,
+        "Description": "STCDT",
+        "Data Element": "Tax Number Type",
+        "Checktable": "J_1ATOID",
+        "Domain": "J_1ATODC",
+        "Datatype": "J_1ATOID",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 80,
+        "Description": "REGSS",
+        "Data Element": "Registered for Social Insurance",
+        "Checktable": "J_1AREGSS",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 81,
+        "Description": "ACTSS",
+        "Data Element": "Activity Code for Social Insurance",
+        "Checktable": "J_1AACTSS",
+        "Domain": "J_1AACT",
+        "Datatype": "J_1AACTSS",
+        "Length": "CHAR",
+        "Decimals": 3
+    },
+    {
+        "Field No": 82,
+        "Description": "STCD3",
+        "Data Element": "Tax Number 3",
+        "Checktable": "STCD3",
+        "Domain": NaN,
+        "Datatype": "CHAR18",
+        "Length": "CHAR",
+        "Decimals": 18
+    },
+    {
+        "Field No": 83,
+        "Description": "STCD4",
+        "Data Element": "Tax Number 4",
+        "Checktable": "STCD4",
+        "Domain": NaN,
+        "Datatype": "CHAR18",
+        "Length": "CHAR",
+        "Decimals": 18
+    },
+    {
+        "Field No": 84,
+        "Description": "STCD5",
+        "Data Element": "Tax Number 5",
+        "Checktable": "STCD5",
+        "Domain": NaN,
+        "Datatype": "CHAR60",
+        "Length": "CHAR",
+        "Decimals": 60
+    },
+    {
+        "Field No": 85,
+        "Description": "IPISP",
+        "Data Element": "Tax Split",
+        "Checktable": "J_1BINDEQU",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 86,
+        "Description": "TAXBS",
+        "Data Element": "Tax Base in Percentage",
+        "Checktable": "TAXBS",
+        "Domain": NaN,
+        "Datatype": "TAXBS",
+        "Length": "NUMC",
+        "Decimals": 1
+    },
+    {
+        "Field No": 87,
+        "Description": "PROFS",
+        "Data Element": "Profession",
+        "Checktable": "PROFS",
+        "Domain": NaN,
+        "Datatype": "TEXT30",
+        "Length": "CHAR",
+        "Decimals": 30
+    },
+    {
+        "Field No": 88,
+        "Description": "STGDL",
+        "Data Element": "Shipment: statistics group, transportation service agent",
+        "Checktable": "STGDL",
+        "Domain": "VTSGD",
+        "Datatype": "STGDL",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 89,
+        "Description": "EMNFR",
+        "Data Element": "External manufacturer code name or number",
+        "Checktable": "EMNFR",
+        "Domain": NaN,
+        "Datatype": "CHAR10",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 90,
+        "Description": "LFURL",
+        "Data Element": "Uniform resource locator",
+        "Checktable": "URL",
+        "Domain": NaN,
+        "Datatype": "TEXT132",
+        "Length": "CHAR",
+        "Decimals": 132
+    },
+    {
+        "Field No": 91,
+        "Description": "J_1KFREPRE",
+        "Data Element": "Name of Representative",
+        "Checktable": "REPRES",
+        "Domain": NaN,
+        "Datatype": "REPRES",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 92,
+        "Description": "J_1KFTBUS",
+        "Data Element": "Type of Business",
+        "Checktable": "GESTYP",
+        "Domain": "BUSTYPE",
+        "Datatype": "GESTYP",
+        "Length": "CHAR",
+        "Decimals": 30
+    },
+    {
+        "Field No": 93,
+        "Description": "J_1KFTIND",
+        "Data Element": "Type of Industry",
+        "Checktable": "INDTYP",
+        "Domain": "INDUSTYPE",
+        "Datatype": "INDTYP",
+        "Length": "CHAR",
+        "Decimals": 30
+    },
+    {
+        "Field No": 94,
+        "Description": "CONFS",
+        "Data Element": "Status of Change Authorization (Central)",
+        "Checktable": "CONFS_X",
+        "Domain": NaN,
+        "Datatype": "CHAR1",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 95,
+        "Description": "UPDAT",
+        "Data Element": "Date on Which the Changes Were Confirmed",
+        "Checktable": "UPDAT_RF",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 96,
+        "Description": "UPTIM",
+        "Data Element": "Time of Last Change Confirmation",
+        "Checktable": "UPTIM_RF",
+        "Domain": NaN,
+        "Datatype": "AS4TIME",
+        "Length": "TIMS",
+        "Decimals": 6
+    },
+    {
+        "Field No": 97,
+        "Description": "NODEL",
+        "Data Element": "Central deletion block for master record",
+        "Checktable": "NODEL_X",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 98,
+        "Description": "QSSYSDAT",
+        "Data Element": "Validity date of certification",
+        "Checktable": "QQSSYSDAT",
+        "Domain": NaN,
+        "Datatype": "QQSSYSDAT",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 99,
+        "Description": "PODKZB",
+        "Data Element": "Vendor indicator relevant for proof of delivery",
+        "Checktable": "PODKZB",
+        "Domain": NaN,
+        "Datatype": "PODKZB",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 100,
+        "Description": "FISKU",
+        "Data Element": "Account Number of Master Record of Tax Office Responsible",
+        "Checktable": "FISKU",
+        "Domain": "LFA1",
+        "Datatype": "LIFNR",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 101,
+        "Description": "STENR",
+        "Data Element": "Tax Number at Responsible Tax Authority",
+        "Checktable": "STENR",
+        "Domain": NaN,
+        "Datatype": "CHAR18",
+        "Length": "CHAR",
+        "Decimals": 18
+    },
+    {
+        "Field No": 102,
+        "Description": "CARRIER_CONF",
+        "Data Element": "Carrier confirmation is expected",
+        "Checktable": "/SPE/CARRIER_CNF",
+        "Domain": NaN,
+        "Datatype": "/SPE/CARRIER_CONF",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 103,
+        "Description": "MIN_COMP",
+        "Data Element": "Micro company indicator",
+        "Checktable": "J_1BMICRO_COMP",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 104,
+        "Description": "TERM_LI",
+        "Data Element": "Terms of Liability",
+        "Checktable": "J_1BTERMS_LIAB",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 105,
+        "Description": "CRC_NUM",
+        "Data Element": "CRC number",
+        "Checktable": "J_1BCRC_NUM",
+        "Domain": NaN,
+        "Datatype": "CHAR25",
+        "Length": "CHAR",
+        "Decimals": 25
+    },
+    {
+        "Field No": 106,
+        "Description": "CVP_XBLCK",
+        "Data Element": "Business Purpose Completed Flag",
+        "Checktable": "CVP_XBLCK",
+        "Domain": NaN,
+        "Datatype": "CVP_XBLCK",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 107,
+        "Description": "RG",
+        "Data Element": "RG Number",
+        "Checktable": "J_1BRG",
+        "Domain": NaN,
+        "Datatype": "J_1BRG",
+        "Length": "CHAR",
+        "Decimals": 11
+    },
+    {
+        "Field No": 108,
+        "Description": "EXP",
+        "Data Element": "Issued by",
+        "Checktable": "J_1BEXP",
+        "Domain": NaN,
+        "Datatype": "J_1BEXP",
+        "Length": "CHAR",
+        "Decimals": 3
+    },
+    {
+        "Field No": 109,
+        "Description": "UF",
+        "Data Element": "State",
+        "Checktable": "J_1BUF",
+        "Domain": NaN,
+        "Datatype": "J_1BUF",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 110,
+        "Description": "RGDATE",
+        "Data Element": "RG Issuing Date",
+        "Checktable": "J_1BRGDATE",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 111,
+        "Description": "RIC",
+        "Data Element": "RIC Number",
+        "Checktable": "J_1BRIC",
+        "Domain": NaN,
+        "Datatype": "J_1BRIC",
+        "Length": "NUMC",
+        "Decimals": 11
+    },
+    {
+        "Field No": 112,
+        "Description": "RNE",
+        "Data Element": "Foreign National Registration",
+        "Checktable": "J_1BRNE",
+        "Domain": NaN,
+        "Datatype": "J_1BRNE",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 113,
+        "Description": "RNEDATE",
+        "Data Element": "RNE Issuing Date",
+        "Checktable": "J_1BRNEDATE",
+        "Domain": NaN,
+        "Datatype": "DATUM",
+        "Length": "DATS",
+        "Decimals": 8
+    },
+    {
+        "Field No": 114,
+        "Description": "CNAE",
+        "Data Element": "CNAE",
+        "Checktable": "J_1BCNAE",
+        "Domain": "J_1BTCNAE",
+        "Datatype": "J_1BCNAE",
+        "Length": "CHAR",
+        "Decimals": 7
+    },
+    {
+        "Field No": 115,
+        "Description": "LEGALNAT",
+        "Data Element": "Legal Nature",
+        "Checktable": "J_1BLEGALNAT",
+        "Domain": "J_1BTLEGALNAT",
+        "Datatype": "J_1BLEGALNAT",
+        "Length": "NUMC",
+        "Decimals": 4
+    },
+    {
+        "Field No": 116,
+        "Description": "CRTN",
+        "Data Element": "CRT Number",
+        "Checktable": "J_1BCRTN",
+        "Domain": NaN,
+        "Datatype": "J_1BCRTN",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 117,
+        "Description": "ICMSTAXPAY",
+        "Data Element": "ICMS Taxpayer",
+        "Checktable": "J_1BICMSTAXPAY",
+        "Domain": "J_1BTICMSTAXPAY",
+        "Datatype": "J_1BICMSTAXPAY",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 118,
+        "Description": "INDTYP",
+        "Data Element": "Industry Main Type",
+        "Checktable": "J_1BINDTYP",
+        "Domain": "J_1BTINDTYP",
+        "Datatype": "J_1BINDTYP",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 119,
+        "Description": "TDT",
+        "Data Element": "Tax Declaration Type",
+        "Checktable": "J_1BTDT",
+        "Domain": "J_1BTTDT",
+        "Datatype": "J_1BTDT",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 120,
+        "Description": "COMSIZE",
+        "Data Element": "Company Size",
+        "Checktable": "J_1BCOMSIZE",
+        "Domain": "J_1BTCOMSIZE",
+        "Datatype": "J_1BCOMSIZE",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 121,
+        "Description": "DECREGPC",
+        "Data Element": "Declaration Regimen for PIS/COFINS",
+        "Checktable": "J_1BDECREGPC",
+        "Domain": "J_1BTDECREGPC",
+        "Datatype": "J_1BDECREGPC",
+        "Length": "CHAR",
+        "Decimals": 2
+    },
+    {
+        "Field No": 122,
+        "Description": "J_SC_CAPITAL",
+        "Data Element": "Capital Amount",
+        "Checktable": "/SAPNEA/J_SC_CAPITAL",
+        "Domain": NaN,
+        "Datatype": "/SAPNEA/J_SC_CAPITAL",
+        "Length": "CURR",
+        "Decimals": 15
+    },
+    {
+        "Field No": 123,
+        "Description": "J_SC_CURRENCY",
+        "Data Element": "Currency",
+        "Checktable": "/SAPNEA/J_SC_CURRENCY",
+        "Domain": "TCURC",
+        "Datatype": "WAERS",
+        "Length": "CUKY",
+        "Decimals": 5
+    },
+    {
+        "Field No": 124,
+        "Description": "ALC",
+        "Data Element": "Agency Location Code",
+        "Checktable": "FMFG_ALC",
+        "Domain": "FMFGT_ALC",
+        "Datatype": "FMFG_ALC",
+        "Length": "CHAR",
+        "Decimals": 8
+    },
+    {
+        "Field No": 125,
+        "Description": "PMT_OFFICE",
+        "Data Element": "Payment Office",
+        "Checktable": "FMFG_PMT_OFF",
+        "Domain": "FMFGT_PO",
+        "Datatype": "FMFG_PMT_OFF",
+        "Length": "CHAR",
+        "Decimals": 5
+    },
+    {
+        "Field No": 126,
+        "Description": "PPA_RELEVANT",
+        "Data Element": "Vendor is PPA relevant",
+        "Checktable": "FMFG_PPA_RELEVANT",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 127,
+        "Description": "PSOFG",
+        "Data Element": "Processor group",
+        "Checktable": "PSOFG",
+        "Domain": "PSO19",
+        "Datatype": "PSOFG",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 128,
+        "Description": "PSOIS",
+        "Data Element": "Subledger acct preprocessing procedure",
+        "Checktable": "PSOIS",
+        "Domain": NaN,
+        "Datatype": "CHAR20",
+        "Length": "CHAR",
+        "Decimals": 20
+    },
+    {
+        "Field No": 129,
+        "Description": "PSON1",
+        "Data Element": "Name 1",
+        "Checktable": "NAME1_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 130,
+        "Description": "PSON2",
+        "Data Element": "Name 2",
+        "Checktable": "NAME2_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 131,
+        "Description": "PSON3",
+        "Data Element": "Name 3",
+        "Checktable": "NAME3_GP",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 132,
+        "Description": "PSOVN",
+        "Data Element": "First Name",
+        "Checktable": "PSOVN",
+        "Domain": NaN,
+        "Datatype": "NAME",
+        "Length": "CHAR",
+        "Decimals": 35
+    },
+    {
+        "Field No": 133,
+        "Description": "PSOTL",
+        "Data Element": "Title",
+        "Checktable": "PSOTL",
+        "Domain": NaN,
+        "Datatype": "FMPSOTL",
+        "Length": "CHAR",
+        "Decimals": 20
+    },
+    {
+        "Field No": 134,
+        "Description": "PSOHS",
+        "Data Element": "House number: is no longer used from Release 4.6B",
+        "Checktable": "PSOHS",
+        "Domain": NaN,
+        "Datatype": "CHAR06",
+        "Length": "CHAR",
+        "Decimals": 6
+    },
+    {
+        "Field No": 135,
+        "Description": "PSOST",
+        "Data Element": "Street: No longer used from Release 4.6B",
+        "Checktable": "PSOST",
+        "Domain": NaN,
+        "Datatype": "PSOST",
+        "Length": "CHAR",
+        "Decimals": 28
+    },
+    {
+        "Field No": 136,
+        "Description": "TRANSPORT_CHAIN",
+        "Data Element": "Transportation Chain",
+        "Checktable": "WRF_PSCD_TC_ID",
+        "Domain": "WRF_PSCD_TCHAINH",
+        "Datatype": "WRF_PSCD_TC_ID",
+        "Length": "CHAR",
+        "Decimals": 10
+    },
+    {
+        "Field No": 137,
+        "Description": "STAGING_TIME",
+        "Data Element": "Staging Time in Days",
+        "Checktable": "WRF_PSCD_MST",
+        "Domain": NaN,
+        "Datatype": "WRF_PSCD_MST",
+        "Length": "DEC",
+        "Decimals": 3
+    },
+    {
+        "Field No": 138,
+        "Description": "SCHEDULING_TYPE",
+        "Data Element": "Scheduling Procedure",
+        "Checktable": "WRF_PSCD_SCHED_TYPE",
+        "Domain": NaN,
+        "Datatype": "WRF_PSCD_SCHED_TYPE",
+        "Length": "CHAR",
+        "Decimals": 1
+    },
+    {
+        "Field No": 139,
+        "Description": "SUBMI_RELEVANT",
+        "Data Element": "Cross Docking: Relevant for Collective Numbering",
+        "Checktable": "WRF_SUBMI_RELEVANT",
+        "Domain": NaN,
+        "Datatype": "XFELD",
+        "Length": "CHAR",
+        "Decimals": 1
+    }
+]

@@ -1,0 +1,1955 @@
+[
+    {
+        "Source Technical Field": 1,
+        "Source Field": "MANDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 2,
+        "Source Field": "LIFNR",
+        "Target Field": "CompanyID",
+        "Mapping Score": 95,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 3,
+        "Source Field": "LAND1",
+        "Target Field": "CountryCode",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 4,
+        "Source Field": "NAME1",
+        "Target Field": "CompanyName",
+        "Mapping Score": 95,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 5,
+        "Source Field": "NAME2",
+        "Target Field": "ShortName",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 6,
+        "Source Field": "NAME3",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 7,
+        "Source Field": "NAME4",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 8,
+        "Source Field": "ORT01",
+        "Target Field": "City",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 9,
+        "Source Field": "ORT02",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 10,
+        "Source Field": "PFACH",
+        "Target Field": "POBox",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 11,
+        "Source Field": "PSTL2",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 12,
+        "Source Field": "PSTLZ",
+        "Target Field": "PostalCode",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 13,
+        "Source Field": "REGIO",
+        "Target Field": "StateProvince",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 14,
+        "Source Field": "SORTL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 15,
+        "Source Field": "STRAS",
+        "Target Field": "AddressLine1",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 16,
+        "Source Field": "ADRNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 17,
+        "Source Field": "MCOD1",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 18,
+        "Source Field": "MCOD2",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 19,
+        "Source Field": "MCOD3",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 20,
+        "Source Field": "ANRED",
+        "Target Field": "Prefix",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 21,
+        "Source Field": "BAHNS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 22,
+        "Source Field": "BBBNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 23,
+        "Source Field": "BBSNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 24,
+        "Source Field": "BEGRU",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 25,
+        "Source Field": "BRSCH",
+        "Target Field": "IndustryCode",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 26,
+        "Source Field": "BUBKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 27,
+        "Source Field": "DATLT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 28,
+        "Source Field": "DTAMS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 29,
+        "Source Field": "DTAWS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 30,
+        "Source Field": "ERDAT",
+        "Target Field": "CreatedDate",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 31,
+        "Source Field": "ERNAM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 32,
+        "Source Field": "ESRNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 33,
+        "Source Field": "KONZS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 34,
+        "Source Field": "KTOKK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 35,
+        "Source Field": "KUNNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 36,
+        "Source Field": "LNRZA",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 37,
+        "Source Field": "LOEVM",
+        "Target Field": "Status",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 38,
+        "Source Field": "SPERR",
+        "Target Field": "Status",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 39,
+        "Source Field": "SPERM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 40,
+        "Source Field": "SPRAS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 41,
+        "Source Field": "STCD1",
+        "Target Field": "FederalID",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 42,
+        "Source Field": "STCD2",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 43,
+        "Source Field": "STKZA",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 44,
+        "Source Field": "STKZU",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 45,
+        "Source Field": "TELBX",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 46,
+        "Source Field": "TELF1",
+        "Target Field": "Phone1",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 47,
+        "Source Field": "TELF2",
+        "Target Field": "Phone2",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 48,
+        "Source Field": "TELFX",
+        "Target Field": "Fax",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 49,
+        "Source Field": "TELTX",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 50,
+        "Source Field": "TELX1",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 51,
+        "Source Field": "XCPDK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 52,
+        "Source Field": "XZEMP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 53,
+        "Source Field": "VBUND",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 54,
+        "Source Field": "FISKN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 55,
+        "Source Field": "STCEG",
+        "Target Field": "VATID",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 56,
+        "Source Field": "STKZN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 57,
+        "Source Field": "SPERQ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 58,
+        "Source Field": "GBORT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 59,
+        "Source Field": "GBDAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 60,
+        "Source Field": "SEXKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 61,
+        "Source Field": "KRAUS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 62,
+        "Source Field": "REVDB",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 63,
+        "Source Field": "QSSYS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 64,
+        "Source Field": "KTOCK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 65,
+        "Source Field": "PFORT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 66,
+        "Source Field": "WERKS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 67,
+        "Source Field": "LTSNA",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 68,
+        "Source Field": "WERKR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 69,
+        "Source Field": "PLKAL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 70,
+        "Source Field": "DUEFL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 71,
+        "Source Field": "TXJCD",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 72,
+        "Source Field": "SPERZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 73,
+        "Source Field": "SCACD",
+        "Target Field": "CompanySCAC",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 74,
+        "Source Field": "SFRGR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 75,
+        "Source Field": "LZONE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 76,
+        "Source Field": "XLFZA",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 77,
+        "Source Field": "DLGRP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 78,
+        "Source Field": "FITYP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 79,
+        "Source Field": "STCDT",
+        "Target Field": "FederalIDType",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 80,
+        "Source Field": "REGSS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 81,
+        "Source Field": "ACTSS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 82,
+        "Source Field": "STCD3",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 83,
+        "Source Field": "STCD4",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 84,
+        "Source Field": "STCD5",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 85,
+        "Source Field": "IPISP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 86,
+        "Source Field": "TAXBS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 87,
+        "Source Field": "PROFS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 88,
+        "Source Field": "STGDL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 89,
+        "Source Field": "EMNFR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 90,
+        "Source Field": "LFURL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 91,
+        "Source Field": "J_1KFREPRE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 92,
+        "Source Field": "J_1KFTBUS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 93,
+        "Source Field": "J_1KFTIND",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 94,
+        "Source Field": "CONFS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 95,
+        "Source Field": "UPDAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 96,
+        "Source Field": "UPTIM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 97,
+        "Source Field": "NODEL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 98,
+        "Source Field": "QSSYSDAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 99,
+        "Source Field": "PODKZB",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 100,
+        "Source Field": "FISKU",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 101,
+        "Source Field": "STENR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 102,
+        "Source Field": "CARRIER_CONF",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 103,
+        "Source Field": "MIN_COMP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 104,
+        "Source Field": "TERM_LI",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 105,
+        "Source Field": "CRC_NUM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 106,
+        "Source Field": "CVP_XBLCK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 107,
+        "Source Field": "RG",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 108,
+        "Source Field": "EXP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 109,
+        "Source Field": "UF",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 110,
+        "Source Field": "RGDATE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 111,
+        "Source Field": "RIC",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 112,
+        "Source Field": "RNE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 113,
+        "Source Field": "RNEDATE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 114,
+        "Source Field": "CNAE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 115,
+        "Source Field": "LEGALNAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 116,
+        "Source Field": "CRTN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 117,
+        "Source Field": "ICMSTAXPAY",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 118,
+        "Source Field": "INDTYP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 119,
+        "Source Field": "TDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 120,
+        "Source Field": "COMSIZE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 121,
+        "Source Field": "DECREGPC",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 122,
+        "Source Field": "J_SC_CAPITAL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 123,
+        "Source Field": "J_SC_CURRENCY",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 124,
+        "Source Field": "ALC",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 125,
+        "Source Field": "PMT_OFFICE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 126,
+        "Source Field": "PPA_RELEVANT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 127,
+        "Source Field": "PSOFG",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 128,
+        "Source Field": "PSOIS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 129,
+        "Source Field": "PSON1",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 130,
+        "Source Field": "PSON2",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 131,
+        "Source Field": "PSON3",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 132,
+        "Source Field": "PSOVN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 133,
+        "Source Field": "PSOTL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 134,
+        "Source Field": "PSOHS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 135,
+        "Source Field": "PSOST",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 136,
+        "Source Field": "TRANSPORT_CHAIN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 137,
+        "Source Field": "STAGING_TIME",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 138,
+        "Source Field": "SCHEDULING_TYPE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 139,
+        "Source Field": "SUBMI_RELEVANT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 1,
+        "Source Field": "MANDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 2,
+        "Source Field": "LIFNR",
+        "Target Field": "CompanyID",
+        "Mapping Score": 95,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 3,
+        "Source Field": "BUKRS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 4,
+        "Source Field": "PERNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 5,
+        "Source Field": "ERDAT",
+        "Target Field": "CreatedDate",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 6,
+        "Source Field": "ERNAM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 7,
+        "Source Field": "SPERR",
+        "Target Field": "Status",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 8,
+        "Source Field": "LOEVM",
+        "Target Field": "Status",
+        "Mapping Score": 80,
+        "Explanation": "Semantic and datatype match",
+        "Risk Level": NaN,
+        "Comments": "Transformation may be needed"
+    },
+    {
+        "Source Technical Field": 9,
+        "Source Field": "ZUAWA",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 10,
+        "Source Field": "AKONT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 11,
+        "Source Field": "BEGRU",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 12,
+        "Source Field": "VZSKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 13,
+        "Source Field": "ZWELS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 14,
+        "Source Field": "XVERR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 15,
+        "Source Field": "ZAHLS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 16,
+        "Source Field": "ZTERM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 17,
+        "Source Field": "EIKTO",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 18,
+        "Source Field": "ZSABE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 19,
+        "Source Field": "KVERM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 20,
+        "Source Field": "FDGRV",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 21,
+        "Source Field": "BUSAB",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 22,
+        "Source Field": "LNRZE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 23,
+        "Source Field": "LNRZB",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 24,
+        "Source Field": "ZINDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 25,
+        "Source Field": "ZINRT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 26,
+        "Source Field": "DATLZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 27,
+        "Source Field": "XDEZV",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 28,
+        "Source Field": "WEBTR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 29,
+        "Source Field": "KULTG",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 30,
+        "Source Field": "REPRF",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 31,
+        "Source Field": "TOGRU",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 32,
+        "Source Field": "HBKID",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 33,
+        "Source Field": "XPORE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 34,
+        "Source Field": "QSZNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 35,
+        "Source Field": "QSZDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 36,
+        "Source Field": "QSSKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 37,
+        "Source Field": "BLNKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 38,
+        "Source Field": "MINDK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 39,
+        "Source Field": "ALTKN",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 40,
+        "Source Field": "ZGRUP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 41,
+        "Source Field": "MGRUP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 42,
+        "Source Field": "UZAWE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 43,
+        "Source Field": "QSREC",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 44,
+        "Source Field": "QSBGR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 45,
+        "Source Field": "QLAND",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 46,
+        "Source Field": "XEDIP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 47,
+        "Source Field": "FRGRP",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 48,
+        "Source Field": "TOGRR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 49,
+        "Source Field": "TLFXS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 50,
+        "Source Field": "INTAD",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 51,
+        "Source Field": "XLFZB",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 52,
+        "Source Field": "GUZTE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 53,
+        "Source Field": "GRICD",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 54,
+        "Source Field": "GRIDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 55,
+        "Source Field": "XAUSZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 56,
+        "Source Field": "CERDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 57,
+        "Source Field": "CONFS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 58,
+        "Source Field": "UPDAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 59,
+        "Source Field": "UPTIM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 60,
+        "Source Field": "NODEL",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 61,
+        "Source Field": "TLFNS",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 62,
+        "Source Field": "AVSND",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 63,
+        "Source Field": "AD_HASH",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 64,
+        "Source Field": "CVP_XBLCK_B",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 65,
+        "Source Field": "CIIUCODE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 66,
+        "Source Field": "ZBOKD",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 67,
+        "Source Field": "ZQSSKZ",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 68,
+        "Source Field": "ZQSZDT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 69,
+        "Source Field": "ZQSZNR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 70,
+        "Source Field": "ZMINDAT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 71,
+        "Source Field": "J_SC_SUBCONTYPE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 72,
+        "Source Field": "J_SC_COMPDATE",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 73,
+        "Source Field": "J_SC_OFFSM",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 74,
+        "Source Field": "J_SC_OFFSR",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 75,
+        "Source Field": "BASIS_PNT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 76,
+        "Source Field": "GMVKZK",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 77,
+        "Source Field": "PREPAY_RELEVANT",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    },
+    {
+        "Source Technical Field": 78,
+        "Source Field": "ASSIGN_TEST",
+        "Target Field": "NO MAPPING",
+        "Mapping Score": 0,
+        "Explanation": "No suitable target",
+        "Risk Level": "NICE-TO-HAVE",
+        "Comments": "Target schema lacks equivalent field"
+    }
+]
