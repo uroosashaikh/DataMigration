@@ -1,8 +1,113 @@
 from . import connection as DB
 import logging
+import pymysql
 
 def get_connection():
     return DB.connect()
+
+MAPPING_COLUMNS = """
+    MappingId AS mapping_id,
+    ProjectId AS project_id,
+    SourceField AS source_field,
+    TargetField AS target_field,
+    Confidence AS confidence,
+    Reasoning AS reasoning,
+    Status AS status,
+    ReviewComment AS review_comment,
+    ReviewedBy AS reviewed_by,
+    ReviewedDate AS reviewed_date,
+    UpdatedBy AS updated_by,
+    UpdatedDate AS updated_date
+"""
+
+def get_project(project_id):
+    conn = get_connection()
+    try:
+        with conn.cursor(pymysql.cursors.DictCursor) as cursor:
+            cursor.execute(
+                """
+                SELECT
+                    ProjectId AS project_id,
+                    ProjectName AS project_name,
+                    SourceSystem AS source_system,
+                    TargetSystem AS target_system
+                FROM migrationProjects
+                WHERE ProjectId = %s
+                """,
+                (project_id,),
+            )
+            return cursor.fetchone()
+    finally:
+        conn.close()
+
+def get_mappings(project_id):
+    conn = get_connection()
+    try:
+        with conn.cursor(pymysql.cursors.DictCursor) as cursor:
+            cursor.execute(
+                f"SELECT {MAPPING_COLUMNS} FROM Mappings WHERE ProjectId = %s ORDER BY SourceField",
+                (project_id,),
+            )
+            return cursor.fetchall()
+    finally:
+        conn.close()
+
+def get_mapping(mapping_id):
+    conn = get_connection()
+    try:
+        with conn.cursor(pymysql.cursors.DictCursor) as cursor:
+            cursor.execute(
+                f"SELECT {MAPPING_COLUMNS} FROM Mappings WHERE MappingId = %s",
+                (mapping_id,),
+            )
+            return cursor.fetchone()
+    finally:
+        conn.close()
+
+def get_target_field_names(project_id):
+    conn = get_connection()
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                "SELECT FieldName FROM targetSchema WHERE ProjectId = %s ORDER BY FieldName",
+                (project_id,),
+            )
+            return [row[0] for row in cursor.fetchall()]
+    finally:
+        conn.close()
+
+def review_mapping(mapping_id, status, reviewer, target_field=None, comment=None, set_comment=False):
+    """Record a review decision. The comment is only written when set_comment is True,
+    so quick approve/reject actions keep the existing comment."""
+    assignments = [
+        "Status = %s",
+        "ReviewedBy = %s",
+        "ReviewedDate = NOW()",
+        "UpdatedBy = %s",
+        "UpdatedDate = NOW()",
+    ]
+    params = [status, reviewer, reviewer]
+    if target_field is not None:
+        assignments.append("TargetField = %s")
+        params.append(target_field)
+    if set_comment:
+        assignments.append("ReviewComment = %s")
+        params.append(comment)
+    params.append(mapping_id)
+
+    conn = get_connection()
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                f"UPDATE Mappings SET {', '.join(assignments)} WHERE MappingId = %s",
+                params,
+            )
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
 
 def create_project(name, source, target):
     query = """

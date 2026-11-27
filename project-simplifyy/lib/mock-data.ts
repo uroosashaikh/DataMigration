@@ -110,7 +110,7 @@ export const targetFields: SchemaField[] = [
   { id: "t6", fieldName: "BillingCountry", description: "Billing country", dataType: "string", length: 80, mandatory: true, nullable: false, custom: false, notes: "" },
 ]
 
-export type MappingState = "suggested" | "accepted" | "rejected" | "unmapped"
+export type MappingState = "suggested" | "approved" | "rejected" | "modified" | "unmapped"
 
 export type FieldMapping = {
   id: string
@@ -128,6 +128,10 @@ export type FieldMapping = {
     reasoning: string[]
   }
   notes: string
+  reviewedBy?: string
+  reviewedDate?: string
+  updatedBy?: string
+  updatedDate?: string
 }
 
 export const fieldMappings: FieldMapping[] = [
@@ -168,7 +172,7 @@ export const fieldMappings: FieldMapping[] = [
     targetField: "BillingStreet",
     logic: "Semantically fields are the same",
     confidence: 90,
-    state: "accepted",
+    state: "approved",
     reasoning: ["Semantically aligned address fields", "Data type: Text", "Sample values show street addresses"],
     notes: "Reviewed and accepted",
   },

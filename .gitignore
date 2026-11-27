@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Runtime uploads
+data/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/workspace.xml
+.idea/shelf/
+.vscode/
