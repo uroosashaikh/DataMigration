@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Literal, Optional
 
 class Mapping(BaseModel):
     source_field: str
@@ -11,3 +11,8 @@ class Mapping(BaseModel):
 
 class MappingResponse(BaseModel):
     mappings: list[Mapping]
+
+class MappingReviewRequest(BaseModel):
+    action: Literal["approve", "reject", "update"]
+    target_field: Optional[str] = None
+    comment: Optional[str] = None

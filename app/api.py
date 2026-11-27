@@ -5,10 +5,23 @@ from app import database
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pathlib import Path
+import os
 import shutil
+from dotenv import load_dotenv
 from app import schema_loader
+from app.models import MappingReviewRequest
+
+load_dotenv()
 
 UPLOAD_DIR = Path("data/uploads")
+# There is no authentication yet, so every review is attributed to this user.
+CURRENT_USER = os.getenv("CURRENT_USER", "Farisha Shaikh")
+NO_MAPPING = "NO MAPPING"
+REVIEW_STATUSES = {
+    "approve": "Approved",
+    "reject": "Rejected",
+    "update": "Modified",
+}
 app = FastAPI(
     title="Data Migration API",
     version="1.0.0"
@@ -107,6 +120,77 @@ async def save_file(upload_file, project_id, file_type):
         )
 
     return file_path
+
+
+@app.get("/projects/{project_id}")
+def get_project(project_id: str):
+    try:
+        project = database.get_project(project_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+    if project is None:
+        raise HTTPException(status_code=404, detail="Project not found")
+    return project
+
+
+@app.get("/projects/{project_id}/mappings")
+def get_project_mappings(project_id: str):
+    try:
+        return database.get_mappings(project_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+
+
+@app.get("/projects/{project_id}/target-fields")
+def get_project_target_fields(project_id: str):
+    try:
+        return database.get_target_field_names(project_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+
+
+@app.patch("/mappings/{mapping_id}")
+def review_mapping(mapping_id: str, review: MappingReviewRequest):
+    try:
+        mapping = database.get_mapping(mapping_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+    if mapping is None:
+        raise HTTPException(status_code=404, detail="Mapping not found")
+
+    comment = review.comment.strip() if review.comment else None
+    target_field = None
+
+    if review.action == "update":
+        target_field = (review.target_field or "").strip()
+        if not target_field:
+            raise HTTPException(status_code=400, detail="A target field is required to update a mapping")
+        if not comment:
+            raise HTTPException(status_code=400, detail="A comment explaining the change is required")
+        if target_field != NO_MAPPING:
+            try:
+                valid_fields = database.get_target_field_names(mapping["project_id"])
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+            if target_field not in valid_fields:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"'{target_field}' is not a field in this project's target schema",
+                )
+
+    try:
+        database.review_mapping(
+            mapping_id,
+            status=REVIEW_STATUSES[review.action],
+            reviewer=CURRENT_USER,
+            target_field=target_field,
+            comment=comment,
+            set_comment="comment" in review.model_fields_set,
+        )
+        return database.get_mapping(mapping_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Internal Database Server Error: {str(e)}")
+
 
 @app.get("/")
 def root():
